@@ -1,0 +1,48 @@
+table,td,th{
+    border:2px solid Gray ;
+    vertical-align: middle;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+     color: white;
+      font-family: "Time New Roman";
+      display: inline;
+}
+img{
+    text-align: center;
+    background-clip: border-box
+    
+}
+p{
+    color: red;
+    display: inherit;
+    
+}
+h1{
+   
+    font-weight: bolder;
+    font-size: 300%;
+}
+
+
+td{
+    font-family: monospace;
+}
+
+a:hover{
+    font-size: 200%;
+}
+a:visited{
+    color: yellow;
+}
+p:first-of-type{
+    text-decoration: underline;
+}
+tr:nth-child(even){
+    background-color: gray;
+}
+tr:nth-child(odd){
+    background-color: black;
+}
